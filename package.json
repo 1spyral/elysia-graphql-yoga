@@ -25,7 +25,7 @@
     "homepage": "https://github.com/1spyral/elysia-graphql-yoga",
     "repository": {
         "type": "git",
-        "url": "https://github.com/1spyral/elysia-graphql-yoga"
+        "url": "git+https://github.com/1spyral/elysia-graphql-yoga.git"
     },
     "bugs": "https://github.com/1spyral/elysia-graphql-yoga/issues",
     "license": "MIT",
