@@ -2,7 +2,7 @@ if ('Bun' in globalThis) {
   throw new Error('❌ Use Node.js to run this test!');
 }
 
-import { yoga } from '@elysiajs/graphql-yoga';
+import { yoga } from '@1spyral/elysia-graphql-yoga';
 
 if (typeof yoga !== 'function') {
   throw new Error('❌ ESM Node.js failed');

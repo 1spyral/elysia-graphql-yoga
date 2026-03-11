@@ -1,6 +1,6 @@
 {
-    "name": "@elysiajs/graphql-yoga",
-    "version": "1.4.0",
+    "name": "@1spyral/elysia-graphql-yoga",
+    "version": "1.4.1-1spyral.0",
     "description": "Plugin for Elysia for using graphql-yoga",
     "author": {
         "name": "saltyAom",
@@ -22,13 +22,16 @@
         "elysia",
         "graphql-yoga"
     ],
-    "homepage": "https://github.com/elysiajs/elysia-graphql-yoga",
+    "homepage": "https://github.com/1spyral/elysia-graphql-yoga",
     "repository": {
         "type": "git",
-        "url": "https://github.com/elysiajs/elysia-graphql-yoga"
+        "url": "https://github.com/1spyral/elysia-graphql-yoga"
     },
-    "bugs": "https://github.com/elysiajs/elysia-graphql-yoga/issues",
+    "bugs": "https://github.com/1spyral/elysia-graphql-yoga/issues",
     "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "dev": "bun run --watch example/index.ts",
         "test": "bun test && npm run test:node",
